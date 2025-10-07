@@ -9,6 +9,15 @@
     "lint": "npx eslint src/",
     "lint:fix": "npx eslint src/ --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/organization-name/repository-name.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "packageManager": "yarn@4.9.2",
   "engines": {
     "node": "22.13.0"
